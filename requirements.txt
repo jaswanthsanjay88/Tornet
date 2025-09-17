@@ -1,5 +1,6 @@
 # Core dependencies for Tornet
-requests>=2.25.0
+requests[socks]>=2.25.0
+pysocks>=1.7.0
 stem>=1.8.0
 
 # Development dependencies (install with: pip install -r requirements-dev.txt)
